@@ -1037,5 +1037,6 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 # 7 "main.c"
 int main(void)
 {
+echo "hello preproccessor";
 return (0);
 }
