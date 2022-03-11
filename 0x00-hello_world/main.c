@@ -1,9 +1,10 @@
-#include <>[Dstdio.h>
+#include <stdio.h>
 /**
 * main-entry point
 *
-* return: Always 0 ()[Dsuccess[C[D)
+* return: Always 0 (success)
 */
-int main()[Dvoid)[B
-{}[D
-[A[Creturn ()[D0);}
+int main(void)
+{
+return (0);
+}
