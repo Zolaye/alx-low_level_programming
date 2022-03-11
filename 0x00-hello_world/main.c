@@ -2,9 +2,10 @@
 /**
 * main-entry point
 *
-* return: Always 0 (success)
+* return: return string 
 */
 int main(void)
 {
+echo "hello preproccessor";
 return (0);
 }
