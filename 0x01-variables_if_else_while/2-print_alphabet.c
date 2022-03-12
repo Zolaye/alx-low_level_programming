@@ -7,25 +7,12 @@
  */
 int main(void)
 {
-	int num1, num2;
+	int c;
 
-	for (num1 = '0'; num1 < '9'; num1++)
+	for (c = 97; c <= 122; c++)
 	{
-		for (num2 = num1 + 1; num2 <= '9'; num2++)
-		{
-			if (num1 != num2)
-			{
-				putchar(num1);
-				putchar(num2);
-				if (num1 == '8' && num2 == '9')
-				{
-					continue;
-				}
-			}
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(c);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
